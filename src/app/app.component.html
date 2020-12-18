@@ -1,7 +1,12 @@
-
-
-<div class="content" role="main">
-<p class="uppercase"> aaaaa xd</p>
+<div id="app" class="md:flex antialiased h-screen flex flex-col" role="main">
+    <header class="flex flex-row content-between items-center justify-between px-4">
+        <h1 class="py-6 px-4 text-gray-100 text-base font-medium">Gaming News</h1>
+        <div>
+            <label class="text-base text-white">Search: </label>
+            <input type="text" class="bg-white h-8 w-40 mx-2"/>
+        </div>
+    </header>
+    <app-login></app-login>
 </div>
 
 <router-outlet></router-outlet>
